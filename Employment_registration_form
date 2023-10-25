@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Employement registration form</title>
+    <style>
+        div{
+            width: 1000px;
+            padding: 20px;
+            background-color: yellow;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+          <form>
+            <table>
+                <tr>
+                    <td><label for="name">Candidate name</label></td>
+                    <td><input type="text" id="name" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" name="gender">Male <input type="radio" name="gender">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" placeholder="abcs@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="DOB">Date of birth</label></td>
+                    <td><input type="date" id="DOB"></td>
+                </tr>
+                <tr>
+                    <td><label for="DOJ">Date of joining</label></td>
+                    <td><input type="date" id="DOJ"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea cols="20" rows="3" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td>
+                        <select>
+                            <option>Course</options>
+                            <option>BE</options>
+                            <option>M TECH</options>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="phoneno">phone number</label></td>
+                    <td><input type="tel" id="phoneno" value="+91" size="10" required></td>
+                </tr>
+                <tr>
+                    <td><label for="skill">Skill</label></td>
+                    <td>
+                        <input type="checkbox" id="skill">AI
+                        <input type="checkbox" id="skill">CYBER
+                        <input type="checkbox" id="skill">DATA
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="resume">upload resume</label></td>
+                    <td><input type="file" id="resume"></td>
+                </tr>
+            </table>
+            <input type="submit">
+            <input type="reset">
+          </form>
+        </div>
+    </center>
+</body>
+</html>
